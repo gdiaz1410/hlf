@@ -1,5 +1,5 @@
 body {
-  padding-top: 50px;
+  /*padding-top: 50px;*/
 }
 
 /*header section*/
@@ -7,6 +7,18 @@ header {
   height: 100vh;
   border: 1px solid red;
   /*background-image:*/
+  position: relative;
+  /*background-image: url(../images/group.jpg);*/
+}
+
+img {
+  height: 600px;
+  width: 550px;
+  position: absolute;
+}
+
+.toggleNav {
+  display: none;
 }
 
 .headerText {
