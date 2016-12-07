@@ -1,0 +1,60 @@
+body {
+  padding-top: 50px;
+}
+
+/*header section*/
+header {
+  height: 100vh;
+  border: 1px solid red;
+  /*background-image:*/
+}
+
+.headerText {
+  text-align: center;
+}
+
+.headerNavButtons ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+/*schedule section*/
+.scheduleSection {
+  height: 100vh;
+  background-color: yellow;
+}
+
+a {
+  color: black;
+}
+
+
+
+
+
+/*about section*/
+.aboutSection {
+  height: 100vh;
+  background-color: green;
+}
+
+
+
+
+
+/*results section*/
+.resultsSection {
+  height: 100vh;
+  background-color: orange;
+}
+
+
+
+
+/*contact section*/
+.contactSection {
+  height: 100vh;
+  background-color: tomato;
+}
