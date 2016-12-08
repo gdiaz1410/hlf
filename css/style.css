@@ -1,5 +1,5 @@
 body {
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 .navbar {
@@ -17,13 +17,12 @@ body {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #000000;
-    font-size: 20px;
+  color: #000000;
+  font-size: 20px;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: red;
-    font-size: 20px;
+  color: red;
 }
 
 .collapse li:hover {
@@ -51,8 +50,23 @@ header {
   width: 550px;
 }
 
-.subText {
+.headerText {
   text-align: center;
+}
+
+#hlfHeader {
+  font-size: 60px;
+  margin-top: 200px;
+  font-weight: bolder;
+}
+
+.subText {
+  font-size: 20px;
+}
+
+.extraSubText {
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .toggleNav {
