@@ -2,13 +2,38 @@ body {
   padding-top: 50px;
 }
 
+.navbar {
+  background-color: white;
+}
+
+.navbar-brand {
+  color: black;
+  font-size: 20px;
+}
+
+.collapse li {
+  color: black;
+  font-size: 20px;
+}
+
+.collapse li:hover {
+  color: black;
+}
+
+.navbar-toggle {
+  background-color: black;
+}
+
+.flexNav {
+  display: flex;
+  justify-content: space-between;
+}
+
 /*header section*/
 header {
   height: 100vh;
   border: 1px solid red;
-  /*background-image:*/
-  position: relative;
-  /*background-image: url(../images/group.jpg);*/
+  /*position: relative;*/
 }
 
 #headerImg {
