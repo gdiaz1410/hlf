@@ -24,10 +24,10 @@
     		</div>
     		<div class="collapse navbar-collapse" id="bs-nav-demo">
     			<ul class="nav navbar-nav">
-    				<li><a href="#">Schedule & Classes</a></li>
-    				<li><a href="#">Meet the Trainers</a></li>
-    				<li><a href="#">Results Gallery</a></li>
-    				<li><a href="#">Contact</a></li>
+    				<li><a href="#schedule">Schedule & Classes</a></li>
+    				<li><a href="#trainers">Meet the Trainers</a></li>
+    				<li><a href="#results">Results Gallery</a></li>
+    				<li><a href="#footer">Contact</a></li>
     			</ul>
     		</div>
   		</div>
@@ -57,11 +57,11 @@
   <div class="scheduleSection">
 
     <div class="container">
-      <h2>Schedule & Class Descriptions</h2>
+      <h2 class="sectionHeader"  id="schedule">Schedule & Class Descriptions</h2>
 
       <div class="flexSchedule">
-        <div>
-          <p>Tuesday</p>
+        <div class="workout">
+          <h2>Tuesday</h2>
           <ul>
             <li>Leg Workout</li>
             <!-- add small description of each days workout -->
@@ -69,16 +69,16 @@
             <li>$10</li>
           </ul>
         </div>
-        <div>
-          <p>Thursday</p>
+        <div class="workout">
+          <h2>Thursday</h2>
           <ul>
             <li>Upper Body</li>
             <li>6-7 PM</li>
             <li>$10</li>
           </ul>
         </div>
-        <div>
-          <p>Saturday</p>
+        <div class="workout">
+          <h2>Saturday</h2>
           <ul>
             <li>Total Body Workout</li>
             <li>10-11 AM</li>
@@ -108,38 +108,40 @@
 
 
   <!-- about section -->
-  <div class="aboutSection">
+  <div class="aboutSection" id="trainers">
     <div class="container">
       <div class="row">
+        <h2 class="sectionHeader">HLF Trainers</h2>
         <div class="hlfDescription">
           <p>HLF is a way we could give back to the community while doing something we are passionate about. Before we opened our first workout session, we decided that we would not only help our community get healthier, but that we would also give 10% to Upward Sports to help children get sponsored into sports. We are glad to say that we have helped sponsor over a dozen children into the sport of their choice.</p>
         </div>
 
-        <div class="col-md-6">
-          <div class="trainerOne  trainer">
-            <!-- <img src="" alt=""> -->
-            <img class="trainerPic" src="images/zach.jpg" alt="zach">
-            <p>Zach Beeler</p>
-            <ul>
-              <li>BS Kinesiology-Athletic Medicine from UTSA</li>
-              <li>National Council of Certified Personal Trainers</li>
-              <li>Three years of personal training experience</li>
-            </ul>
+
+          <div class="col-md-6 col-sm-6">
+            <div class="trainerOne  trainer">
+              <!-- <img src="" alt=""> -->
+              <img class="trainerPic" src="images/zach.jpg" alt="zach">
+              <p>Zach Beeler</p>
+              <ul>
+                <li>BS Kinesiology-Athletic Medicine from UTSA</li>
+                <li>National Council of Certified Personal Trainers</li>
+                <li>Three years of personal training experience</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
 
-        <div class="col-md-6">
-          <div class="trainerTwo trainer">
-            <img class="trainerPic" src="images/richard.jpg" alt="richard">
-            <p>Richard Nguyen</p>
-            <ul>
-              <li>BS Nutrition from UT</li>
-              <li>Nine years of experience in clinical nutrition</li>
-              <li>Two years of personal training experience</li>
-            </ul>
+          <div class="col-md-6 col-sm-6">
+            <div class="trainerTwo trainer">
+              <img class="trainerPic" src="images/richard.jpg" alt="richard">
+              <p>Richard Nguyen</p>
+              <ul>
+                <li>BS Nutrition from UT</li>
+                <li>Nine years of experience in clinical nutrition</li>
+                <li>Two years of personal training experience</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
       </div>
     </div>
@@ -148,7 +150,8 @@
 
 
   <!-- results section -->
-  <div class="resultsSection">
+  <div class="resultsSection" id="results">
+    <h2 class="sectionHeader">Results</h2>
     <div class=" container-fluid bg-4 text-center">
       <div id="myCarousel" class="carousel slide" data-ride="false">
     <!-- Indicators -->
@@ -244,7 +247,7 @@
 
 
   <!-- contact section -->
-  <footer>
+  <footer id="footer">
     <ul>
       <li><i class="fa fa-map-marker" aria-hidden="true"></i>1108 Olympic Dr Pflugerville, Texas</li>
 
