@@ -1,5 +1,5 @@
 body {
-  padding-top: 50px;
+  padding-top: 70px;
 }
 
 .navbar {
@@ -7,13 +7,23 @@ body {
 }
 
 .navbar-brand {
-  color: black;
+  color: black !important;
   font-size: 20px;
+  font-weight: bold;
 }
 
-.collapse li {
-  color: black;
-  font-size: 20px;
+.navbar-brand:hover {
+  color: red !important;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #000000;
+    font-size: 20px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: red;
+    font-size: 20px;
 }
 
 .collapse li:hover {
@@ -66,12 +76,44 @@ header {
   background-color: yellow;
 }
 
+.sectionHeader {
+  font-size: 48px;
+  text-align: center;
+}
+
 .flexSchedule {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  max-width:750px;
+  margin: 0 auto;
+}
+
+.workout {
+  flex: 1;
+  background: rgba(155, 255, 255, 0.2);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 
+.workout ul {
+  list-style-type: none;
+  margin-left: -38px;
+}
+
+.workout ul li {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding:10px;
+}
+
+.workout ul li:last-child {
+  border-bottom: 0;
+}
 
 /*about section*/
 .aboutSection {
@@ -87,6 +129,13 @@ header {
 .trainer p {
   text-align: center;
 }
+
+.trainer ul {
+  text-align: center;
+  list-style-type: none;
+
+}
+
 
 
 
