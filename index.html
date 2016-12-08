@@ -24,10 +24,10 @@
     		</div>
     		<div class="collapse navbar-collapse" id="bs-nav-demo">
     			<ul class="nav navbar-nav">
-    				<li><a href="#schedule">Schedule & Classes</a></li>
-    				<li><a href="#trainers">Meet the Trainers</a></li>
-    				<li><a href="#results">Results Gallery</a></li>
-    				<li><a href="#footer">Contact</a></li>
+    				<li><a id="schedule" href="#schedule">Schedule & Classes</a></li>
+    				<li><a id="trainers" href="#trainers">Meet the Trainers</a></li>
+    				<li><a id="results" href="#results">Results Gallery</a></li>
+    				<li><a id="contact" href="#footer">Contact</a></li>
     			</ul>
     		</div>
   		</div>
@@ -37,13 +37,13 @@
   <header>
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-sm-6">
+        <div class="col-md-6 col-sm-12">
           <img id="headerImg" src="images/hlf.jpg" alt="holf logo">
         </div>
-        <div class="col-md-6 col-sm-6 headerText">
+        <div class="col-md-6 col-sm-12 headerText">
           <p id="hlfHeader">Higher Level Fitness</p>
-          <p class="subText">We are a High Intensity Interval Training camp that offers resistance and cardio exercises for High level athletes and beginners.</p>
-          <p class="extraSubText">Come join the movement</p>
+          <p class="subText">High intensity interval training camp that offers resistance and cardio exercises for High level athletes and beginners.</p>
+          <a href="#schedules"><p class="extraSubText">Join the movement</p></a>
         </div>
       </div>
     </div>
@@ -53,6 +53,7 @@
 
 
   <!-- schedule section -->
+
   <div class="scheduleSection">
 
     <div class="container">
@@ -134,7 +135,7 @@
   <div class="aboutSection" id="trainers">
     <div class="container">
       <div class="row">
-        <h2 class="sectionHeader">HLF Trainers</h2>
+        <h2 class="sectionHeader">Meet the HLF Trainers</h2>
         <div class="hlfDescription">
           <p>HLF is a way we could give back to the community while doing something we are passionate about. Before we opened our first workout session, we decided that we would not only help our community get healthier, but that we would also give 10% to Upward Sports to help children get sponsored into sports. We are glad to say that we have helped sponsor over a dozen children into the sport of their choice.</p>
         </div>
@@ -174,7 +175,7 @@
 
   <!-- results section -->
   <div class="resultsSection" id="results">
-    <h2 class="sectionHeader">Results</h2>
+    <h2 class="sectionHeader">Success Stories</h2>
     <div class=" container-fluid bg-4 text-center">
       <div id="myCarousel" class="carousel slide" data-ride="false">
     <!-- Indicators -->
@@ -271,14 +272,20 @@
 
   <!-- contact section -->
   <footer id="footer">
-    <ul>
-      <li><i class="fa fa-map-marker" aria-hidden="true"></i>1108 Olympic Dr Pflugerville, Texas</li>
-
-      <li><i class="fa fa-envelope-o" aria-hidden="true"></i>higherlevelfitnessaustin@gmail.com</li>
-
-      <li><i class="fa fa-facebook" aria-hidden="true"></i>Higher Level Fitness</li>
-      <li><i class="fa fa-phone" aria-hidden="true"></i>512-658-9026</li>
-    </ul>
+    <!-- <div class="container"> -->
+      <div class="row">
+        <div class="col-lg-12 col-md-6 col-xs-3">
+          <h2 class="sectionHeader footerTitle">Contact Us</h2>
+          <ul>
+            <li><i class="fa fa-map-marker" aria-hidden="true"></i>1108 Olympic Dr Pflugerville, Texas</li>
+            <li><i class="fa fa-envelope-o" aria-hidden="true"></i>higherlevelfitnessaustin@gmail.com</li>
+            <li><a href="https://www.facebook.com/HigherLevelFitnessAustin/" target=_blank><i class="fa fa-facebook" aria-hidden="true"></i>Higher Level Fitness</a></li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>512-658-9026</li>
+          </ul>
+        </div>
+      </div>
+    <!-- </div> -->
+    <!-- <div id="map" style="width:50%;height:300px"></div> -->
   </footer>
 
 
@@ -290,5 +297,7 @@
   crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="js/script.js" charset="utf-8"></script>
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script> -->
+
   </body>
 </html>

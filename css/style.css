@@ -40,13 +40,15 @@ body {
 
 /*header section*/
 header {
-  /*height: 100vh;*/
-  border: 1px solid red;
   /*position: relative;*/
+  /*height:100vh;*/
+  display:flex;
+  /*align-items: center;*/
 }
 
 #headerImg {
-  height: 600px;
+  padding-bottom: 90px;
+  height: 680px;
   width: 550px;
 }
 
@@ -91,6 +93,7 @@ header {
 }
 
 .sectionHeader {
+  padding-top: 50px;
   font-size: 48px;
   text-align: center;
 }
@@ -213,7 +216,7 @@ header {
 }
 
 .item img {
-  max-height: 600px;
+  max-height: 450px;
   margin: 0 auto;
 }
 
@@ -222,10 +225,37 @@ header {
 
 /*contact section*/
 footer {
-  height: 40vh;
+  height: 30vh;
   background-color: tomato;
+  font-size: 20px;
+}
+
+.footerTitle {
+
 }
 
 footer ul {
   list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+footer i {
+  margin-right: 10px;
+}
+
+footer li  {
+  color: black;
+}
+
+footer li a {
+  color: black;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 1000px) {
+
 }
