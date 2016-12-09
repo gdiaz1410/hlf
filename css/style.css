@@ -43,7 +43,6 @@ header {
   /*position: relative;*/
   /*height:100vh;*/
   display:flex;
-  /*align-items: center;*/
 }
 
 #headerImg {
@@ -58,17 +57,31 @@ header {
 
 #hlfHeader {
   font-size: 60px;
-  margin-top: 180px;
+  margin-top: 170px;
   font-weight: bolder;
+
 }
 
 .subText {
   font-size: 20px;
+  margin: 30px 0;
 }
 
-.extraSubText {
+#schedules {
   font-size: 32px;
   font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 20px;
+  border-width: medium;
+  color: black;
+  margin-top: 20px;
+}
+
+#schedules:hover {
+  text-decoration: none;
+  background-color: black;
+  color: white;
 }
 
 .toggleNav {
@@ -89,7 +102,7 @@ header {
 /*schedule section*/
 .scheduleSection {
   /*height: 100vh;*/
-  background-color: yellow;
+  /*background-color: yellow;*/
 }
 
 .sectionHeader {
@@ -171,12 +184,12 @@ header {
 /*about section*/
 .aboutSection {
   /*height: 100vh;*/
-  background-color: green;
+  /*background-color: green;*/
 }
 
 .trainerPic {
   width: 350px;
-  height: 350px;
+  height: 360px;
 }
 
 .trainer p {
@@ -197,12 +210,17 @@ header {
 /*results section*/
 .resultsSection {
   /*height: 100vh;*/
-  background-color: orange;
+  /*background-color: orange;*/
 }
 
 .item {
   position: absolute;
   bottom: 0px;
+  max-height: 750px;
+}
+
+.carousel {
+  max-height: 900px;
 }
 
 .item .carousel-caption {
@@ -213,11 +231,17 @@ header {
 
 .carousel-caption {
   color: black;
+  max-height: 200px;
 }
 
 .item img {
   max-height: 450px;
   margin: 0 auto;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    color: black;
 }
 
 
@@ -226,7 +250,7 @@ header {
 /*contact section*/
 footer {
   height: 30vh;
-  background-color: tomato;
+  /*background-color: tomato;*/
   font-size: 20px;
 }
 
@@ -251,11 +275,4 @@ footer li  {
 
 footer li a {
   color: black;
-}
-
-
-/*MEDIA QUERIES*/
-
-@media (max-width: 1000px) {
-
 }
