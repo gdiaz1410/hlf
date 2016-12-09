@@ -1,5 +1,10 @@
 body {
   padding-top: 50px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.russoFont {
+  font-family: 'Russo One', sans-serif;
 }
 
 .navbar {
@@ -58,8 +63,6 @@ header {
 #hlfHeader {
   font-size: 60px;
   margin-top: 170px;
-  font-weight: bolder;
-
 }
 
 .subText {
@@ -248,7 +251,7 @@ header {
 
 .carousel-caption {
   color: black;
-  max-height: 200px;
+  max-height: 250px;
 }
 
 .item img {
@@ -284,11 +287,13 @@ footer ul {
 }
 
 footer i {
-  margin-right: 10px;
+  /*margin-right: 10px;*/
+  margin: 0 8px;
 }
 
 footer li  {
   color: black;
+  margin: 0 5px;
 }
 
 footer li a {
@@ -298,10 +303,6 @@ footer li a {
 .facebook:hover {
   color: red;
 }
-
-/*.footerDetails ul {
-  margin-bottom: 40px;
-}*/
 
 #footer {
   margin-bottom: 40px;
