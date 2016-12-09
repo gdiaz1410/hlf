@@ -183,15 +183,27 @@ header {
   border-bottom: 0;
 }
 
+
 /*ABOUT SECTION*/
 .aboutSection {
   /*height: 100vh;*/
   /*background-color: green;*/
 }
 
+.hlfDescription p {
+  padding-bottom: 20px;
+}
+
 .trainerPic {
   width: 350px;
   height: 360px;
+  padding-bottom: 10px;
+}
+
+.trainerName {
+  font-size: 28px;
+  border-bottom: 1px solid red;
+  font-weight: bold;
 }
 
 .trainer p {
@@ -201,7 +213,10 @@ header {
 .trainer ul {
   text-align: center;
   list-style-type: none;
+}
 
+.trainerPic {
+  margin-left: 100px;
 }
 
 
