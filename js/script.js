@@ -44,7 +44,14 @@ $("#results").click(function(e) {
    $('html, body').animate({
      scrollTop: $(".scheduleSection").offset().top
    }, 600);
-  });
+ });
+
+ $("#brand").click(function(e) {
+  e.preventDefault();
+  $('html, body').animate({
+    scrollTop: $("header").offset().top
+  }, 600);
+ });
 
 
 
