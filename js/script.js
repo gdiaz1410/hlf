@@ -49,7 +49,7 @@ $("#results").click(function(e) {
  $("#brand").click(function(e) {
   e.preventDefault();
   $('html, body').animate({
-    scrollTop: $("header").offset().top
+    scrollTop: $(".header").offset().top
   }, 600);
  });
 

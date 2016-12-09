@@ -45,9 +45,8 @@ body {
 
 /*HEADER SECTION*/
 header {
-  /*position: relative;*/
-  /*height:100vh;*/
   display:flex;
+  margin-top: 20px;
 }
 
 #headerImg {
