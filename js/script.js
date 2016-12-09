@@ -12,11 +12,11 @@
 // });
 
 $("#schedule").click(function(e) {
-   e.preventDefault();
-   $('html, body').animate({
-     scrollTop: $(".scheduleSection").offset().top
-   }, 600);
- });
+ e.preventDefault();
+ $('html, body').animate({
+   scrollTop: $(".scheduleSection").offset().top
+ }, 600);
+});
 
 $("#trainers").click(function(e) {
   e.preventDefault();
