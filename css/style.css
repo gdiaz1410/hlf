@@ -79,6 +79,7 @@ header {
   border-width: medium;
   color: black;
   margin-top: 20px;
+  text-decoration: none;
 }
 
 #schedules:hover {
