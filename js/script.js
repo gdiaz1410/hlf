@@ -39,7 +39,12 @@ $("#results").click(function(e) {
     }, 600);
   });
 
-
+  $("#schedules").click(function(e) {
+   e.preventDefault();
+   $('html, body').animate({
+     scrollTop: $(".scheduleSection").offset().top
+   }, 600);
+  });
 
 
 

@@ -269,6 +269,7 @@ footer {
   height: 30vh;
   /*background-color: tomato;*/
   font-size: 20px;
+  border-top: 1px solid red;
 }
 
 .footerTitle {
@@ -292,4 +293,16 @@ footer li  {
 
 footer li a {
   color: black;
+}
+
+.facebook:hover {
+  color: red;
+}
+
+/*.footerDetails ul {
+  margin-bottom: 40px;
+}*/
+
+#footer {
+  margin-bottom: 40px;
 }
