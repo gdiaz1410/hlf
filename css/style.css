@@ -1,11 +1,14 @@
 body {
   padding-top: 50px;
   font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 
 .russoFont {
   font-family: 'Russo One', sans-serif;
 }
+
+/*NAVBAR*/
 
 .navbar {
   background-color: black;
@@ -44,6 +47,7 @@ body {
 }
 
 /*HEADER SECTION*/
+
 header {
   display:flex;
   margin-top: 20px;
@@ -103,10 +107,6 @@ header {
 }
 
 /*SCHEDULE SECTION*/
-.scheduleSection {
-  /*height: 100vh;*/
-  /*background-color: yellow;*/
-}
 
 .sectionHeader {
   padding-top: 50px;
@@ -123,7 +123,6 @@ header {
 
 .workout {
   flex: 1;
-  /*background: rgba(155, 255, 255, 0.2);*/
   border: 1px solid red;
   margin: 20px;
   padding: 20px;
@@ -158,7 +157,6 @@ header {
 
 .type {
   flex: 1;
-  /*background: rgba(155, 255, 255, 0.2);*/
   border: 1px solid red;
   height: 420px;
   margin: 20px;
@@ -170,7 +168,6 @@ header {
   flex-wrap: wrap;
   align-content: center;
 }
-
 
 .type ul {
   list-style-type: none;
@@ -188,10 +185,6 @@ header {
 
 
 /*ABOUT SECTION*/
-.aboutSection {
-  /*height: 100vh;*/
-  /*background-color: green;*/
-}
 
 .hlfDescription p {
   padding-bottom: 20px;
@@ -224,14 +217,7 @@ header {
 
 
 
-
-
-
 /*RESULTS SECTION*/
-.resultsSection {
-  /*height: 100vh;*/
-  /*background-color: orange;*/
-}
 
 .item {
   position: absolute;
@@ -241,6 +227,13 @@ header {
 
 .carousel {
   max-height: 900px;
+}
+
+.carousel-indicators {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  width: 150px;
+  margin-left: -75px;
 }
 
 .item .carousel-caption {
@@ -266,17 +259,11 @@ header {
 
 
 
-
 /*contact section*/
 footer {
   height: 30vh;
-  /*background-color: tomato;*/
   font-size: 20px;
   border-top: 1px solid red;
-}
-
-.footerTitle {
-
 }
 
 footer ul {
@@ -287,8 +274,7 @@ footer ul {
 }
 
 footer i {
-  /*margin-right: 10px;*/
-  margin: 0 8px;
+  margin: 0 10px;
 }
 
 footer li  {
